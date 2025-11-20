@@ -42,9 +42,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p>
-        Octal Flow is a high quality publication by <a href="">Mrityunjay Kumar</a> on modern software architecture, design and engineering. 
-      {
+      <p class="text-base text-gray-700">
+        <span class="font-semibold">Octal Flow</span> is a quality publication by 
+          <a href="https://www.mrityunjay.com" class="text-blue-600 hover:text-blue-800 underline underline-offset-2">
+            Mrityunjay Kumar
+          </a>, focused on modern software architecture, design, engineering, and technology.
+      </p>
+
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
