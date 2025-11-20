@@ -4,6 +4,7 @@ title: "About"
 ---
 
 Octal Flow is a publication dedicated to the craft of building modern software.  
+
 We explore ideas across software architecture, system design, engineering practices, and the rapidly evolving world of technology.
 
 The goal is simple: create clear, thoughtful, high-quality content that helps engineers and architects think deeper, design better, and build with intention.
