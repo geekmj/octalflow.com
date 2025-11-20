@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://www.mrityunjay.com/",
   desc: "Quality articles and videos on software architecture, design and engineering.",
   title: "Octal Flow",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "poctal-og.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
@@ -12,7 +12,7 @@ export const SITE = {
   showArchives: true,
   showBackButton: true, // show back button in post detail
   editPost: {
-    enabled: true,
+    enabled: false,
     text: "Edit page",
     url: "https://github.com/geekmj/octalflow.com/edit/main",
   },
